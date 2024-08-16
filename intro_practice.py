@@ -5,8 +5,8 @@ import pandas as pd
 import numpy as np
 
 # Variables
-number_var = 42
-string_var = "Hello, world!"
+number_var = 26
+string_var = "Hello,Tayo!"
 list_var = [1, 2, 3, 4, 5]
 dict_var = {
     'key1': 'value1',
@@ -26,17 +26,17 @@ print("Dictionary Variable:", dict_var)
 # Function definition
 def calculate_discount(price, discount_rate):
     """
-    This function calculates the discount based on price and discount_rate.
-    It also includes an if/else statement to handle edge cases.
+   Discount based on discount_rate and price
+  If/return statement (I think?)
     """
     if discount_rate < 0 or discount_rate > 100:
-        return "Invalid discount rate. It should be between 0 and 100."
+        return Incorrect discount rate.  Should be between 0 and 100"
     discount_amount = price * (discount_rate / 100)
     final_price = price - discount_amount
     return final_price
 
 # Function call and print statement
-price_example = 100  # Example price
-discount_rate_example = 15  # Example discount rate
+price_example = 120  # Example price
+discount_rate_example = 30  # Example discount rate
 final_price = calculate_discount(price_example, discount_rate_example)
 print("Final Price after Discount:", final_price)
